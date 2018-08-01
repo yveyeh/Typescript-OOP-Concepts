@@ -1,7 +1,7 @@
 {
   "name": "typescript_first_tuto",
   "version": "1.0.0",
-  "description": "",
+  "description": "My first typescript tutorial.",
   "main": "index.js",
   "scripts": {
     "start": "tsc && node js/index.js",
@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/yveyeh/typescript_first_tuto/issues"
   },
-  "homepage": "https://github.com/yveyeh/typescript_first_tuto#readme"
+  "homepage": "https://github.com/yveyeh/typescript_first_tuto#readme",
+  "dependencies": {
+    "lodash": "^4.17.10"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.115"
+  }
 }
