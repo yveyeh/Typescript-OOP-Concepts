@@ -1,0 +1,20 @@
+{
+  "name": "typescript_first_tuto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node js/index.js",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yveyeh/typescript_first_tuto.git"
+  },
+  "author": "Didi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yveyeh/typescript_first_tuto/issues"
+  },
+  "homepage": "https://github.com/yveyeh/typescript_first_tuto#readme"
+}
