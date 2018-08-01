@@ -1,3 +1,4 @@
+"use strict";
 var WeekDays;
 (function (WeekDays) {
     WeekDays[WeekDays["Sunday"] = 0] = "Sunday";

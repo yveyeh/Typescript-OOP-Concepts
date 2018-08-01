@@ -12,12 +12,13 @@ var __extends = (this && this.__extends) || (function () {
         d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
     };
 })();
-exports.__esModule = true;
+Object.defineProperty(exports, "__esModule", { value: true });
 var classes_1 = require("./classes");
 function echo(arg) {
     return arg;
 }
 var string = echo("Hello World! Generic Declaration.");
+//
 var Admin = /** @class */ (function (_super) {
     __extends(Admin, _super);
     function Admin() {
@@ -34,8 +35,8 @@ var Manager = /** @class */ (function (_super) {
 }(classes_1.Person));
 var admin = new Admin("John", "Arthur", 27);
 var manager = new Manager("Eliot", "Alderson", 28);
-function employeeEcho(person) {
+function personEcho(person) {
     return person;
 }
-var person_1 = employeeEcho(manager);
-var person_2 = employeeEcho(admin);
+var person_1 = personEcho(manager);
+var person_2 = personEcho(admin);

@@ -1,4 +1,5 @@
 interface Someone {
+    
     first_name : string;
     last_name : string;
 
@@ -7,8 +8,14 @@ interface Someone {
 }
 
 class SomeBody implements Someone {
+
     first_name : string;
     last_name : string;
+
+    constructor (first_name : string, last_name : string){
+        this.first_name = first_name;
+        this.last_name = last_name;
+    }
 
     get_full_name(): string {
         return this.last_name + " " + this.last_name;
@@ -16,7 +23,7 @@ class SomeBody implements Someone {
 
 }
 
-let someone: Someone  = new SomeBody();
+let someone: Someone  = new SomeBody("Didi", "Yufen");
 
 let someObj = {
     first_name: "Test",
